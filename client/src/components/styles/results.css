@@ -1,0 +1,33 @@
+.container{
+    height: 65%;
+    width:45%;
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.AverageScore{
+    background-color: blue;
+    border-radius: 17px;
+}
+.Individual{
+    background-color: aliceblue;
+    padding-top: 15px;
+}
+.IndivResult{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 10% 40% 50%;
+    height: 18%;
+    width: 95%;
+    margin-bottom: 10px;
+    margin-left: 2.5%;
+    
+}
+.logo,.Desc,.Number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Number{
+    justify-content: right;
+}
